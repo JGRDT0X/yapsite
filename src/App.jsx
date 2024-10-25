@@ -109,14 +109,21 @@ function App() {
             <h2 className='border-b border-[#0000FF] italic mb-4'>yap/build/cook</h2>
             
             <div className='flex flex-wrap items-center gap-3'>
-              <img src="/logo/yapcapital.png" alt="yapcorp" className="h-24" />
-              <img src="/logo/yapplestore.png" alt="yapcorp" className="h-24" />
-              <img src="/logo/yappay.png" alt="yapcorp" className="h-24" />
-              <img src="/logo/yapcapital.png" alt="yapcorp" className="h-24" />
-              <img src="/logo/yapplestore.png" alt="yapcorp" className="h-24" />
-              <img src="/logo/yapcapital.png" alt="yapcorp" className="h-24" />
-              <img src="/logo/yapplestore.png" alt="yapcorp" className="h-24" />
-              <img src="/logo/yappay.png" alt="yapcorp" className="h-24" />
+            <img src="/logo/yap_1.png" alt="yapcorp" className="" />
+            <img src="/logo/yap_2.png" alt="yapcorp" className="" />
+            <img src="/logo/yap_3.png" alt="yapcorp" className="" />
+            <img src="/logo/yap_4.png" alt="yapcorp" className="" />
+            <img src="/logo/yap_5.png" alt="yapcorp" className="" />
+            <img src="/logo/yap_6.png" alt="yapcorp" className="" />
+            <img src="/logo/yap_7.png" alt="yapcorp" className="" />
+            <img src="/logo/yap_8.png" alt="yapcorp" className="" />
+            <img src="/logo/yap_9.png" alt="yapcorp" className="" />
+            <img src="/logo/yap_10.png" alt="yapcorp" className="" />
+            <img src="/logo/yap_11.png" alt="yapcorp" className="" />
+            <img src="/logo/yap_12.png" alt="yapcorp" className="" />
+            <img src="/logo/yap_13.png" alt="yapcorp" className="" />
+            <img src="/logo/yap_14.png" alt="yapcorp" className="" />
+
             </div>
           </div>
 
