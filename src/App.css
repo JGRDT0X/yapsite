@@ -1,9 +1,13 @@
 #root {
-  max-width: 1280px;
   margin: 0 auto;
   text-align: center;
 }
 
 * {
   font-family: "Times New Roman", serif;
+  color : #0000FF;
+}
+
+.spacer{
+  height:60px
 }
