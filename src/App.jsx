@@ -102,6 +102,22 @@ function App() {
           <div className='spacer'></div>
 
 
+          <div>
+          <h2 className='border-b border-[#0000FF] italic mb-4'>worked/working/with/</h2>
+
+            <div className='brand-logos flex items-center space-x-4'>
+            {['/logo/1.png', '/logo/2.png', '/logo/3.png', '/logo/4.png', '/logo/5.png', '/logo/6.png'].map((logo, index) => (
+              <div key={index} className='flex items-center'>
+                <img src={logo} alt={`Brand logo ${index + 1}`} className='w-auto h-auto' />
+              </div>
+            ))}
+            </div>
+
+          </div>
+          
+          <div className='spacer'></div>
+
+
 
 
 
@@ -148,25 +164,6 @@ function App() {
                 <span className='text-xs text-[#0000FF]'>{color}</span>
               </div>
             ))}
-          </div>
-
-
-
-
-          <div className='spacer'></div>
-
-
-          <div>
-          <h2 className='border-b border-[#0000FF] italic mb-4'>worked/working/with/</h2>
-
-          <div className='brand-logos flex items-center space-x-4'>
-          {['/logo/1.png', '/logo/2.png', '/logo/3.png', '/logo/4.png', '/logo/5.png'].map((logo, index) => (
-            <div key={index} className='flex items-center'>
-              <img src={logo} alt={`Brand logo ${index + 1}`} className='w-auto h-auto' />
-            </div>
-          ))}
-        </div>
-
           </div>
 
 
