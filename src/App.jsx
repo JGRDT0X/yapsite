@@ -143,21 +143,21 @@ function App() {
 
 
           <div className='flex flex-wrap gap-0' >
-              <img src="/logo/yap_1.svg" alt="yapcorp" className="w-1/3 -m-0.5 hover:animate-spin" />
-              <img src="/logo/yap_2.svg" alt="yapcorp" className="w-1/3 -m-0.5 hover:animate-spin" />
-              <img src="/logo/yap_3.svg" alt="yapcorp" className="w-1/3 -m-0.5 hover:animate-spin" />
-              <img src="/logo/yap_4.svg" alt="yapcorp" className="w-1/3 -m-0.5 hover:animate-spin" />
-              <img src="/logo/yap_5.svg" alt="yapcorp" className="w-1/3 -m-0.5 hover:animate-spin" />
-              <img src="/logo/yap_6.svg" alt="yapcorp" className="w-1/3 -m-0.5 hover:animate-spin" />
-              <img src="/logo/yap_7.svg" alt="yapcorp" className="w-1/3 -m-0.5 hover:animate-spin" />
-              <img src="/logo/yap_8.svg" alt="yapcorp" className="w-1/3 -m-0.5 hover:animate-spin" />
-              <img src="/logo/yap_9.svg" alt="yapcorp" className="w-1/3 -m-0.5 hover:animate-spin" />
-              <img src="/logo/yap_10.svg" alt="yapcorp" className="w-1/3 -m-0.5 hover:animate-spin" />
-              <img src="/logo/yap_11.svg" alt="yapcorp" className="w-1/3 -m-0.5 hover:animate-spin" />
-              <img src="/logo/yap_12.svg" alt="yapcorp" className="w-1/3 -m-0.5 hover:animate-spin" />
-              <img src="/logo/yap_13.svg" alt="yapcorp" className="w-1/3 -m-0.5 hover:animate-spin" />
-              <img src="/logo/yap_14.svg" alt="yapcorp" className="w-1/3 -m-0.5 hover:animate-spin" />
-              <img src="/logo/yap_15.svg" alt="yapcorp" className="w-1/3 -m-0.5 hover:animate-spin" />
+              <img src="/logo/yap_1.svg" alt="yapcorp" className="w-1/3 -m-0.5 cursor-pointer hover:animate-spin" />
+              <img src="/logo/yap_2.svg" alt="yapcorp" className="w-1/3 -m-0.5 cursor-pointer hover:animate-spin" />
+              <img src="/logo/yap_3.svg" alt="yapcorp" className="w-1/3 -m-0.5 cursor-pointer hover:animate-spin" />
+              <img src="/logo/yap_4.svg" alt="yapcorp" className="w-1/3 -m-0.5 cursor-wait hover:animate-spin" />
+              <img src="/logo/yap_5.svg" alt="yapcorp" className="w-1/3 -m-0.5 cursor-wait hover:animate-spin" />
+              <img src="/logo/yap_6.svg" alt="yapcorp" className="w-1/3 -m-0.5 cursor-wait hover:animate-spin" />
+              <img src="/logo/yap_7.svg" alt="yapcorp" className="w-1/3 -m-0.5 cursor-wait hover:animate-spin" />
+              <img src="/logo/yap_8.svg" alt="yapcorp" className="w-1/3 -m-0.5 cursor-wait hover:animate-spin" />
+              <img src="/logo/yap_9.svg" alt="yapcorp" className="w-1/3 -m-0.5 cursor-wait hover:animate-spin" />
+              <img src="/logo/yap_10.svg" alt="yapcorp" className="w-1/3 -m-0.5 cursor-wait hover:animate-spin" />
+              <img src="/logo/yap_11.svg" alt="yapcorp" className="w-1/3 -m-0.5 cursor-wait hover:animate-spin" />
+              <img src="/logo/yap_12.svg" alt="yapcorp" className="w-1/3 -m-0.5 cursor-wait hover:animate-spin" />
+              <img src="/logo/yap_13.svg" alt="yapcorp" className="w-1/3 -m-0.5 cursor-wait hover:animate-spin" />
+              <img src="/logo/yap_14.svg" alt="yapcorp" className="w-1/3 -m-0.5 cursor-wait hover:animate-spin" />
+              <img src="/logo/yap_15.svg" alt="yapcorp" className="w-1/3 -m-0.5 cursor-wait hover:animate-spin" />
             </div>
 
           </div>
