@@ -8,6 +8,10 @@
   color : #0000FF;
 }
 
+.monofont {
+  font-family: "courier", mono !important;
+
+}
 .spacer{
   height:60px
 }

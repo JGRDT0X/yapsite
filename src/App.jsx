@@ -58,18 +58,28 @@ function App() {
 
           <div className='text-left border-b border-[#0000FF] mb-4'>
             <div className='flex justify-between'> 
-              <h2 className=' italic font-bold '>Index of/</h2>
-              <a href="https://dexscreener.com/solana/cs2sgzzkxj8wkzd61ohfp6zcu3sxq11kmcakeapeyhg8" target="_blank" className='text-right text-white hover:text-white hover:underline bg-[#0000FF]'>buy $yap</a>
+              <h1 className='text-xl font-bold '>Index of /</h1>
+              <a href="https://dexscreener.com/solana/cs2sgzzkxj8wkzd61ohfp6zcu3sxq11kmcakeapeyhg8" target="_blank" className='text-right text-white hover:text-white hover:underline bg-[#0000FF] font-mono text-xs mt-2.5'>buy $yap</a>
             </div>
           </div>
-          🗣️🗣️🗣️
+          <span className='hidden text-4xl'>🗣️🗣️🗣️</span>
+          <div className='flex'>
+          <img className="w-32" src="/YAPYAP_UNI.png"/>
+          <img className="w-32" src="/YAPYAP_UNI.png"/>
+          <img className="w-32" src="/YAPYAP_UNI.png"/>
+          </div>
 
 
           <div className='spacer'></div>
 
           <div>
-          <h2 className='border-b border-[#0000FF] italic mb-4'>welcome/yaptivators/</h2>
-          <p>We <i>yappers</i>, pushing boudaries in web3, fashion, technology through groundbreaking collaborations and community-driven innovations.</p>
+            
+          <div className='flex justify-between border-b border-[#0000FF]  mb-4'> 
+          <span className='flex flex-grow gap-x-1'><img src="/folder.png"  className='h-4'/><h2 className=' font-bold'>/<span className='hover:underline cursor-pointer'>yap</span>/<span className='hover:underline cursor-pointer'>welcome</span>/</h2></span>
+          <span className='font-mono text-[10px] hover:underline mt-1'><a className='font-mono' href="https://pump.fun/3gcdoCBQMKAFVopsQ377X7JhkcNPg9fwPY4eW46Apump" target='_blank'>2024-09-26 14:02:00</a></span>
+          </div>
+
+          <p>We <strong><i>yappers</i></strong>, pushing boundaries in web3, fashion, technology through groundbreaking collaborations and community-driven innovations.</p>
           </div>
 
 
@@ -77,21 +87,23 @@ function App() {
 
 
           <div>
-          <h2 className='border-b border-[#0000FF] italic mb-4'>we/yapping/</h2>
-
+          <div className='flex justify-between border-b border-[#0000FF]  mb-4'> 
+          <span className='flex flex-grow gap-x-1'><img src="/folder.png"  className='h-4'/><h2 className=' font-bold'>/<span className='hover:underline cursor-pointer'>yap</span>/<span className='hover:underline cursor-pointer'>about</span>/</h2></span>
+          <span className='font-mono text-[10px] hover:underline mt-1'><a className='font-mono' href="https://pump.fun/3gcdoCBQMKAFVopsQ377X7JhkcNPg9fwPY4eW46Apump" target='_blank'>2024-09-26 14:02:00</a></span>
+          </div>
           <a onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className="underline font-bold" href="https://www.yap.ing/" target="_blank" rel="noopener noreferrer">yap.ing</a> about what <a onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className="underline font-bold" href="https://www.yap.is/" target="_blank" rel="noopener noreferrer">yap.is</a> will soon get you <a onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className="underline font-bold" href="https://www.yap.money/" target="_blank" rel="noopener noreferrer">yap.money</a> so you can have <a onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className="underline font-bold" href="https://www.yap.cash/" target="_blank" rel="noopener noreferrer">yap.cash</a> to spend <a onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className="underline font-bold" href="https://www.yap.shopping/" target="_blank" rel="noopener noreferrer">yap.shopping</a> or at the <a onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className="underline font-bold" href="https://www.yapple.store/" target="_blank" rel="noopener noreferrer">yapple.store</a> or use <a onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className="underline font-bold" href="https://www.yap.link/" target="_blank" rel="noopener noreferrer">yappay.link</a> to pay for <a onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className="underline font-bold" href="https://www.yap.plus/" target="_blank" rel="noopener noreferrer">yap.plus</a> so you can have <a onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className="underline font-bold" href="https://www.yap.news/" target="_blank" rel="noopener noreferrer">yap.news</a> & <a onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className="underline font-bold" href="https://www.yap.codes/" target="_blank" rel="noopener noreferrer">yap.codes</a> for incentivized referrals in the <a onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className="underline font-bold" href="https://www.yap.community/" target="_blank" rel="noopener noreferrer">yap.community</a> or a premium <a onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className="underline font-bold" href="https://www.yap.page/" target="_blank" rel="noopener noreferrer">yap.page</a> or to listen to <a onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className="underline font-bold" href="https://www.yap.zip/" target="_blank" rel="noopener noreferrer">yap.zip</a> we just tryna <a onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className="underline font-bold" href="https://www.yap.it.com/" target="_blank" rel="noopener noreferrer">yap.it.com</a> to the moon so we can <a onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className="underline font-bold" href="https://www.yap.farm/" target="_blank" rel="noopener noreferrer">yap.farm</a> on <a onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className="underline font-bold" href="https://www.yap.earth/" target="_blank" rel="noopener noreferrer">yap.earth</a> but that is just the <a onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className="underline font-bold" href="https://www.yap.today/" target="_blank" rel="noopener noreferrer">yap.today</a> on the <a onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className="underline font-bold" href="https://www.yap.site/" target="_blank" rel="noopener noreferrer">yap.site</a> welcome to the <a onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className="underline font-bold" href="https://www.yap.team/" target="_blank" rel="noopener noreferrer">yap.team</a> of the <a onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className="underline font-bold" href="https://www.yap.meme/" target="_blank" rel="noopener noreferrer">yap.meme</a>  
         <br/><br/>
-        <span className='text-[15px] bg-[#000FFF] text-white underline cursor-pointer' onClick={handleCopy}>
+        <span className='font-mono text-xs text-[15px] bg-[#000FFF] text-white underline cursor-pointer' onClick={handleCopy}>
           3gcdoCBQMKAFVopsQ377X7JhkcNPg9fwPY4eW46Apump
         </span>
-        {toastVisible && <div className="toast text-[#000FFF] text-[15px] italic">in clipboard</div>}
+        {toastVisible && <div className="toast text-[#000FFF] text-[10px] font-mono text-xs">in clipboard</div>}
 
           {hoveredImage && (
             <img 
               className=' max-w-60 border border-[#0000FF]'
               src={hoveredImage} 
               alt="hovered" 
-              style={{ position: 'absolute', top: '200px', left: '0px', transform: 'translate(-50%, -50%)', pointerEvents: 'none' }} // Adjusted position
+              style={{ position: 'absolute', top: '250px', right: '0px', transform: 'translate(-50%, -50%)', pointerEvents: 'none' }} // Adjusted position
             />
           )}
           </div>
@@ -103,18 +115,20 @@ function App() {
 
 
           <div>
-          <h2 className='border-b border-[#0000FF] italic mb-4'>worked/working/with/</h2>
-
+          <div className='flex justify-between border-b border-[#0000FF]  mb-4'> 
+          <span className='flex flex-grow gap-x-1'><img src="/folder.png"  className='h-4'/><h2 className=' font-bold'>/<span className='hover:underline cursor-pointer'>yap</span>/<span className='hover:underline cursor-pointer'>worked</span>/<span className='hover:underline cursor-pointer'>working</span></h2></span>
+          <span className='font-mono text-[10px] hover:underline mt-1'><a className='font-mono' href="https://pump.fun/3gcdoCBQMKAFVopsQ377X7JhkcNPg9fwPY4eW46Apump" target='_blank'>2024-09-26 14:02:00</a></span>
+          </div>
             <div className='brand-logos flex items-center space-x-4'>
             {['/logo/1.png', '/logo/2.png', '/logo/3.png', '/logo/4.png', '/logo/5.png', '/logo/6.png'].map((logo, index) => (
-              <div key={index} className='flex items-center'>
+              <div key={index} className='flex item-center'>
                 <img src={logo} alt={`Brand logo ${index + 1}`} className='w-auto h-auto' />
               </div>
             ))}
             </div>
 
           </div>
-          
+
           <div className='spacer'></div>
 
 
@@ -122,25 +136,30 @@ function App() {
 
 
           <div>
-            <h2 className='border-b border-[#0000FF] italic mb-4'>yap/build/cook</h2>
-            
-            <div className='flex flex-wrap items-center gap-3'>
-            <img src="/logo/yap_1.png" alt="yapcorp" className="" />
-            <img src="/logo/yap_2.png" alt="yapcorp" className="" />
-            <img src="/logo/yap_3.png" alt="yapcorp" className="" />
-            <img src="/logo/yap_4.png" alt="yapcorp" className="" />
-            <img src="/logo/yap_5.png" alt="yapcorp" className="" />
-            <img src="/logo/yap_6.png" alt="yapcorp" className="" />
-            <img src="/logo/yap_7.png" alt="yapcorp" className="" />
-            <img src="/logo/yap_8.png" alt="yapcorp" className="" />
-            <img src="/logo/yap_9.png" alt="yapcorp" className="" />
-            <img src="/logo/yap_10.png" alt="yapcorp" className="" />
-            <img src="/logo/yap_11.png" alt="yapcorp" className="" />
-            <img src="/logo/yap_12.png" alt="yapcorp" className="" />
-            <img src="/logo/yap_13.png" alt="yapcorp" className="" />
-            <img src="/logo/yap_14.png" alt="yapcorp" className="" />
+          <div className='flex justify-between border-b border-[#0000FF]  mb-4'> 
+          <span className='flex flex-grow gap-x-1'><img src="/folder.png"  className='h-4'/><h2 className=' font-bold'>/<span className='hover:underline cursor-pointer'>yap</span>/<span className='hover:underline cursor-pointer'>build</span>/<span className='hover:underline cursor-pointer'>cook</span></h2></span>
+          <span className='font-mono text-xs mt-1'>2024-10-30 10:16</span>
+          </div>
 
+
+          <div className='flex flex-wrap gap-0' >
+              <img src="/logo/yap_1.svg" alt="yapcorp" className="w-1/3 -m-0.5 hover:animate-spin" />
+              <img src="/logo/yap_2.svg" alt="yapcorp" className="w-1/3 -m-0.5 hover:animate-spin" />
+              <img src="/logo/yap_3.svg" alt="yapcorp" className="w-1/3 -m-0.5 hover:animate-spin" />
+              <img src="/logo/yap_4.svg" alt="yapcorp" className="w-1/3 -m-0.5 hover:animate-spin" />
+              <img src="/logo/yap_5.svg" alt="yapcorp" className="w-1/3 -m-0.5 hover:animate-spin" />
+              <img src="/logo/yap_6.svg" alt="yapcorp" className="w-1/3 -m-0.5 hover:animate-spin" />
+              <img src="/logo/yap_7.svg" alt="yapcorp" className="w-1/3 -m-0.5 hover:animate-spin" />
+              <img src="/logo/yap_8.svg" alt="yapcorp" className="w-1/3 -m-0.5 hover:animate-spin" />
+              <img src="/logo/yap_9.svg" alt="yapcorp" className="w-1/3 -m-0.5 hover:animate-spin" />
+              <img src="/logo/yap_10.svg" alt="yapcorp" className="w-1/3 -m-0.5 hover:animate-spin" />
+              <img src="/logo/yap_11.svg" alt="yapcorp" className="w-1/3 -m-0.5 hover:animate-spin" />
+              <img src="/logo/yap_12.svg" alt="yapcorp" className="w-1/3 -m-0.5 hover:animate-spin" />
+              <img src="/logo/yap_13.svg" alt="yapcorp" className="w-1/3 -m-0.5 hover:animate-spin" />
+              <img src="/logo/yap_14.svg" alt="yapcorp" className="w-1/3 -m-0.5 hover:animate-spin" />
+              <img src="/logo/yap_15.svg" alt="yapcorp" className="w-1/3 -m-0.5 hover:animate-spin" />
             </div>
+
           </div>
 
 
@@ -151,17 +170,20 @@ function App() {
 
 
           <div>
-          <h2 className='border-b border-[#0000FF] italic mb-4'>we/yapping/</h2>
-          <p>A collective of visionaries shaping the future of digital experiences and decentralized technologies.</p>
+          <div className='flex justify-between border-b border-[#0000FF]  mb-4'> 
+          <span className='flex flex-grow gap-x-1'><img src="/folder.png"  className='h-4'/><h2 className=' font-bold'>/<span className='hover:underline cursor-pointer'>yap</span>/<span className='hover:underline cursor-pointer'>team</span>/<span className='hover:underline cursor-pointer'>members</span>/</h2></span>
+          <span className='font-mono text-[10px] hover:underline mt-1'><a className='font-mono' href="https://pump.fun/3gcdoCBQMKAFVopsQ377X7JhkcNPg9fwPY4eW46Apump" target='_blank'>2024-09-26 14:02:00</a></span>
+          </div>
+                    <p>A collective of visionaries shaping the future of digital experiences and decentralized technologies.</p>
           </div>
           
           <div className='team-profiles flex space-x-4 mt-4'>
-            {['#f0da91', '#f0da91', '#f0da91', '#f0da91', '#f0da91'].map((color, index) => (
-              <div key={index} className='flex flex-col items-center'>
-                <div className=' border rounded-full p-1 border-[#0000FF]'>
-                <div className='w-8 h-8 rounded-full' style={{ backgroundColor: color }}></div>
+            {['#f0da91', '#f0da92', '#f0da93', '#f0da94', '#f0da95'].map((color, index) => (
+              <div key={index} className='flex flex-col items-left'>
+                <div className=' border p-1 border-[#0000FF]  cursor-help'>
+                <div className='w-16 h-16 mr-4' style={{ backgroundColor: color }}></div>
                 </div>
-                <span className='text-xs text-[#0000FF]'>{color}</span>
+                <span className='mt-1 font-mono text-xs hover:underline text-[#0000FF] cursor-help'>{color}</span>
               </div>
             ))}
           </div>
@@ -170,14 +192,17 @@ function App() {
           <div className='spacer'></div>
 
           <div>
-          <h2 className='border-b border-[#0000FF] italic mb-4'>communities/yap/contribute/</h2>
+          <div className='flex justify-between border-b border-[#0000FF]  mb-4'> 
+          <span className='flex flex-grow gap-x-1'><img src="/folder.png"  className='h-4'/><h2 className=' font-bold'>/<span className='hover:underline cursor-pointer'>communities</span>/<span className='hover:underline cursor-pointer'>yap</span>/<span className='hover:underline cursor-pointer'>contribute</span>/</h2></span>
+          <span className='font-mono text-[10px] hover:underline mt-1'><a className='font-mono' href="https://pump.fun/3gcdoCBQMKAFVopsQ377X7JhkcNPg9fwPY4eW46Apump" target='_blank'>2024-09-26 14:02:00</a></span>
+          </div>
 
           <div className='brand-logos flex space-x-4'>
 
-          <span className='text-right text-white bg-[#0000FF]'>$wif</span>
-          <span className='text-right text-white bg-[#0000FF]'>$sfc</span>
-          <span className='text-right text-white bg-[#0000FF]'>$mew</span>
-          <span className='text-right text-white bg-[#0000FF]'>$michi</span>
+          <a href="https://x.com/dogwifcoin" target="_blank" className='text-right hover:text-white hover:underline text-white bg-[#0000FF] font-mono text-xs'>$wif</a>
+          <a href="https://x.com/michionsolana" target="_blank" className='text-right hover:text-white hover:underline text-white bg-[#0000FF] font-mono text-xs'>$sfc</a>
+          <a href="https://x.com/MewsWorld" target="_blank" className='text-right hover:text-white hover:underline text-white bg-[#0000FF] font-mono text-xs'>$mew</a>
+          <a href="https://x.com/michionsolana" target="_blank" className='text-right hover:text-white hover:underline text-white bg-[#0000FF] font-mono text-xs'>$michi</a>
 
 
           </div>
@@ -189,7 +214,7 @@ function App() {
 
       <div className='spacer'></div>
       <div className='spacer'></div>
-      <div className='footer fixed bottom-4 text-[10px] text-[#0000FF] cursor-wait'>yap site 2024 ©</div>
+      <div className='footer fixed bottom-4 text-[10px] text-[#0000FF] cursor-pointer'>yap site 2024 ©</div>
       </div>
 
     </>
