@@ -54,19 +54,19 @@ function App() {
   return (
     <>
       <div className='flex flex-col items-center justify-center relative'>
-        <div className='text-left text-[#000] text-[15px] p-10 w-full md:w-[600px]'>
+        <div className='text-left text-[#000] text-[15px] md:p-10 md:w-[600px] p-2  w-full'>
 
           <div className='text-left border-b border-[#0000FF] mb-4'>
-            <div className='flex justify-between'> 
+            <div className='flex flex-row justify-between'>
               <h1 className='text-xl font-bold '>Index of /</h1>
               <a href="https://dexscreener.com/solana/cs2sgzzkxj8wkzd61ohfp6zcu3sxq11kmcakeapeyhg8" target="_blank" className='text-right text-white hover:text-white hover:underline bg-[#0000FF] font-mono text-xs mt-2.5'>buy $yap</a>
             </div>
           </div>
           <span className='hidden text-4xl'>🗣️🗣️🗣️</span>
-          <div className='flex'>
-          <img className="w-32" src="/YAPYAP_UNI.png"/>
-          <img className="w-32" src="/YAPYAP_UNI.png"/>
-          <img className="w-32" src="/YAPYAP_UNI.png"/>
+          <div className='flex flex-wrap justify-left'>
+          <img className="w-32 m-2" src="/YAPYAP_UNI.png"/>
+          <img className="w-32 m-2" src="/YAPYAP_UNI.png"/>
+          <img className="w-32 m-2" src="/YAPYAP_UNI.png"/>
           </div>
 
 
@@ -79,7 +79,7 @@ function App() {
           <span className='font-mono text-[10px] hover:underline mt-1'><a className='font-mono' href="https://pump.fun/3gcdoCBQMKAFVopsQ377X7JhkcNPg9fwPY4eW46Apump" target='_blank'>2024-09-26 14:02:00</a></span>
           </div>
 
-          <p>We <strong><i>yappers</i></strong>, pushing boundaries in web3, fashion, technology through groundbreaking collaborations and community-driven innovations.</p>
+          <p>We <strong><i>yappers</i></strong>, are pushing boundaries in web3, fashion and technology through groundbreaking collaborations and community-driven innovations.</p>
           </div>
 
 
@@ -115,8 +115,8 @@ function App() {
 
 
           <div>
-          <div className='flex justify-between border-b border-[#0000FF]  mb-4'> 
-          <span className='flex flex-grow gap-x-1'><img src="/folder.png"  className='h-4'/><h2 className=' font-bold'>/<span className='hover:underline cursor-pointer'>yap</span>/<span className='hover:underline cursor-pointer'>worked</span>/<span className='hover:underline cursor-pointer'>working</span></h2></span>
+          <div className='flex flex-wrap justify-between text-left border-b border-[#0000FF] mb-4'>
+          <div className='flex flex-grow gap-x-1'><img src="/folder.png"  className='h-4'/><h2 className=' font-bold'>/<span className='hover:underline cursor-pointer'>yap</span>/<span className='hover:underline cursor-pointer'>worked</span>/<span className='hover:underline cursor-pointer'>working</span></h2></div>
           <span className='font-mono text-[10px] hover:underline mt-1'><a className='font-mono' href="https://pump.fun/3gcdoCBQMKAFVopsQ377X7JhkcNPg9fwPY4eW46Apump" target='_blank'>2024-09-26 14:02:00</a></span>
           </div>
             <div className='brand-logos flex items-center space-x-4'>
@@ -142,7 +142,7 @@ function App() {
           </div>
 
 
-          <div className='flex flex-wrap gap-0' >
+          <div className='flex flex-wrap gap-0'>
               <img src="/logo/yap_1.svg" alt="yapcorp" className="w-1/3 -m-0.5 cursor-pointer hover:animate-spin" />
               <img src="/logo/yap_2.svg" alt="yapcorp" className="w-1/3 -m-0.5 cursor-pointer hover:animate-spin" />
               <img src="/logo/yap_3.svg" alt="yapcorp" className="w-1/3 -m-0.5 cursor-pointer hover:animate-spin" />
@@ -177,7 +177,7 @@ function App() {
                     <p>A collective of visionaries shaping the future of digital experiences and decentralized technologies.</p>
           </div>
           
-          <div className='team-profiles flex space-x-4 mt-4'>
+          <div className='team-profiles flex flex-wrap justify-left space-x-2 mt-4'>
             {['#f0da91', '#f0da92', '#f0da93', '#f0da94', '#f0da95'].map((color, index) => (
               <div key={index} className='flex flex-col items-left'>
                 <div className=' border p-1 border-[#0000FF]  cursor-help'>
@@ -197,7 +197,7 @@ function App() {
           <span className='font-mono text-[10px] hover:underline mt-1'><a className='font-mono' href="https://pump.fun/3gcdoCBQMKAFVopsQ377X7JhkcNPg9fwPY4eW46Apump" target='_blank'>2024-09-26 14:02:00</a></span>
           </div>
 
-          <div className='brand-logos flex space-x-4'>
+          <div className='brand-logos flex flex-wrap justify-left space-x-4'>
 
           <a href="https://x.com/dogwifcoin" target="_blank" className='text-right hover:text-white hover:underline text-white bg-[#0000FF] font-mono text-xs'>$wif</a>
           <a href="https://x.com/michionsolana" target="_blank" className='text-right hover:text-white hover:underline text-white bg-[#0000FF] font-mono text-xs'>$sfc</a>
